@@ -1,12 +1,12 @@
 SELECT 
-    c.ID AS ClienteID,
-    c.RazaoSocial,
-    t.Numero AS Telefone
+    c.id AS codigo_cliente,
+    c.razao_social,
+    t.numero AS telefone
 FROM 
     Clientes c
-JOIN 
-    Estados e ON c.EstadoID = e.ID
+INNER JOIN 
+    Estados e ON c.estado_codigo = e.codigo
 LEFT JOIN 
-    Telefones t ON c.ID = t.ClienteID
+    Telefones t ON c.id = t.cliente_id
 WHERE 
-    e.Codigo = 'SP';
+    e.codigo = 'SP';
