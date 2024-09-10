@@ -1,4 +1,4 @@
-# challenge-targetsistemas
+# Challenge Target Sistemas
 Desafio Desenvolvedor
 
 ---
@@ -57,8 +57,7 @@ Dado um vetor que guarda o valor de faturamento diário de uma distribuidora de 
 2. Podem existir dias sem faturamento, como nos finais de semana e feriados. Estes dias devem ser ignorados no cálculo da média.
 3. Utilize o algoritmo mais veloz que puder definir.
 
-**Resolução (insira aqui seu código ou algoritmo em qualquer linguagem):**  
-[Clique aqui para encontrar a solução](/challenge03/challenge-03.js)
+**Resolução:** [Clique aqui para encontrar a solução](/challenge03/challenge-03.js)
 
 ---
 
@@ -77,7 +76,7 @@ Uma empresa solicitou a você um aplicativo para manutenção de um cadastro de 
 - Aponte os campos que são chave primária (PK) e chave estrangeira (FK);
 - Faça uma busca utilizando comando SQL que traga o código, a razão social e o(s) telefone(s) de todos os clientes do estado de São Paulo (código “SP”);
 
-**Modelo lógico (insira aqui o diagrama de entidades e relacionamentos):** [Clique aqui para vizualizar o DER](/challenge04/DER-targetsistemas.png)
+**Modelo lógico DER:** [Clique aqui para vizualizar o DER](/challenge04/DER-targetsistemas.png)
 
 **Comando SQL:** [Clique aqui para encontrar os comando SQL](/challenge04/challenge-04.sql)
 
@@ -89,15 +88,10 @@ Uma empresa solicitou a você um aplicativo para manutenção de um cadastro de 
 Dois veículos, um carro e um caminhão, saem respectivamente de cidades opostas pela mesma rodovia. O carro, de Ribeirão Preto em direção a Barretos, a uma velocidade constante de 90 km/h, e o caminhão, de Barretos em direção a Ribeirão Preto, a uma velocidade constante de 80 km/h. Quando eles se cruzarem no percurso, qual estará mais próximo da cidade de Ribeirão Preto?
 
 **Perguntas:**  
-a) Considerar a distância de 125km entre a cidade de Ribeirão Preto <-> Barretos.
-b) Considerar 3 pedágios como obstáculo e que o carro leva 5 minutos a mais para passar em cada um deles, pois ele não possui dispositivo de cobrança de pedágio.
-c)Explique como chegou no resultado.
+- Considerar a distância de 125km entre a cidade de Ribeirão Preto <-> Barretos.
+- Considerar 3 pedágios como obstáculo e que o carro leva 5 minutos a mais para passar em cada um deles, pois ele não possui dispositivo de cobrança de pedágio.
+- Explique como chegou no resultado.
 
-**Resposta:**  
-<!-- Insira sua resposta aqui -->
+**Resposta:** [Caminhão estará mais próximo de Ribeirão Preto](/challenge05/challenge-05.md)
 
-**Explicação do raciocínio:**  
-<!-- Descreva como chegou à resposta -->
-```
-
-
+**Explicação do raciocínio:** [Clique aqui para encontrar a explicação](/challenge05/challenge-05.md)
